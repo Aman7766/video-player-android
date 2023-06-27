@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         vv=findViewById(R.id.vd);
-
+        //local Storage
         String video_path="android.resource://"+getPackageName()+"/"+R.raw.mountains;
         vv.setVideoPath(video_path);
         vv.start();
